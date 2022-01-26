@@ -2,7 +2,7 @@
 
 ### This code example highlights how to use the Fetch API to retrieve data that is displayed in a React app from an API.
 
-In this example, the App.js component has been modified display data fetched from the Google Books API. 
+In this example, the App.js component has been modified display data fetched from the Open Weather. 
 See comments in ./src/App.js.
 
 To run this project, do the following:
