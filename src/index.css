@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap'); /* Import Kanit font. */
+
+/* Global styles. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global styles. */
+.app {
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* Background image detials. */
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+}
+
+/* Global styles. */
+.searchbox {
+  width: 100%;
+  margin: 0 0 75px;
+  color:rgba(46, 46, 46, 0.5);
+}
+
+/* Searchbox styles. */
+.searchbox .search{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(199, 199, 199, 0.116);
+  border-radius: 3px;
+  box-shadow: 0px 5px #0000007c;
+  color: #000000;
+  font-size: 20px;
+  border: none;
+}
+
+.search{
+  color:rgb(0, 0, 0);
+}
+
+.searchbox .search:focus {
+  background-color: rgba(255, 255, 255, 0.116);
+  border: none;
+}
+
+/* Location details set to black and centered. */
+.locbox .location {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Location/Date details set to black and centered. */
+.locbox .date {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.weatherbox {
+  text-align: center;
+}
+
+/* Temperature and weather elements detailing. */
+.weatherbox .temp {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 102px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #22222244;
+  border-radius: 14px;
+  font-family: 'Kanit', sans-serif;
+  box-shadow: 0px 8px #0000007c;
+}
+
+.weather{
+  color: rgb(0, 0, 0);
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* Temperature font. */
+.temp{
+  font-family: 'Kanit', sans-serif;
+}
+
+/* Button is styled similarly to search box. */
+button{
+  margin: 15px auto;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(128, 128, 128, 0.363);
+  color:rgb(0, 0, 0);
+  box-shadow: 0px 3px #0000007c;
+}
+
+/* ;0. */
